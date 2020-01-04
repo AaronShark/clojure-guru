@@ -1,4 +1,4 @@
-(ns clojure-noob.core
+(ns clojure-noob.chapter03
   (:gen-class))
 
 ;;;; Map Summary
@@ -46,7 +46,7 @@
    ["Elmer Fudd" "Shotgun"] 800, 
    ["Wile Coyote" "Dynamite"] 5000,
    ["Wile Coyote" "Clock"] 300})
-(reduce #(apply assoc-in %1 %2) {} flat-breakup)
 
+(reduce #(apply assoc-in %1 %2) {} flat-breakup)
 
 
